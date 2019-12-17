@@ -1,0 +1,37 @@
+{
+  "name": "login-forms",
+  "version": "1.0.0",
+  "description": "Generic oauth2 login forms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markusahlstrand/login-forms.git"
+  },
+  "keywords": [
+    "oauth2",
+    "login",
+    "html"
+  ],
+  "author": "Markus Ahlstrand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markusahlstrand/login-forms/issues"
+  },
+  "homepage": "https://github.com/markusahlstrand/login-forms#readme",
+  "dependencies": {
+    "koa": "2.11.0",
+    "koa-static": "5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "6.7.1",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-prettier": "3.1.1",
+    "mocha": "6.2.2",
+    "prettier": "1.19.1"
+  }
+}
